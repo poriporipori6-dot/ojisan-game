@@ -29,8 +29,8 @@ export default function App() {
   const [screen, setScreen] = useState("title");
   const [score, setScore] = useState(0);
   const [hi, setHi] = useState(0);
-  const [life, setLife] = useState(100);
-  const [progress, setProgress] = useState(0);
+  const [, setLife] = useState(100);
+  const [, setProgress] = useState(0);
   const [rage, setRage] = useState(false);
   const [shake, setShake] = useState(false);
   const cvs = useRef(null);
